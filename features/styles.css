@@ -1,0 +1,19 @@
+
+body{
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  border-bottom: 1px;
+  text-align: center;
+  text-decoration-color: #280340;
+}
+   .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 20px auto;
+   }
